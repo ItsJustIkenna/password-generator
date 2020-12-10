@@ -23,9 +23,10 @@ function generatePassword() {
     "choose a length of at least 8 characters and no more than 128 characters"
   );
 
-  if (lengthOfPassword < 8 || lengthOfPassword > 128) {
-    alert("Invalid character length");
-    lengthOfPassword;
+  while (lengthOfPassword < 8 || lengthOfPassword > 128) {
+    var lengthOfPassword = prompt(
+      "choose a length of at least 8 characters and no more than 128 characters"
+    );
   }
   console.log("password length" + lengthOfPassword);
 
@@ -60,7 +61,9 @@ function generatePassword() {
   for (i = 0; i < lengthOfPassword; i++) {
     var random = Math.floor(Math.random() * requiredCharString.length);
 
-    generatePassword = generatePassword.concat(requiredCharString.charAt(random));
+    generatePassword = generatePassword.concat(
+      requiredCharString.charAt(random)
+    );
     console.log("Generate password is: " + generatePassword);
   }
 
