@@ -5,3 +5,12 @@ This assignment generates a random password from the criteria selected from the 
 ## Credits
 
 Special shoutout to Pete Kriengsiri for help with this homework. Here is the [link](https://github.com/pkriengsiri) to his GitHub
+
+## Screenshot
+
+[screenshot.PNG](screenshot.PNG)
+
+## link to website
+
+https://itsjustikenna.github.io/password-generator/
+
