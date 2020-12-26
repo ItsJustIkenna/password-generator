@@ -8,7 +8,7 @@ Special shoutout to Pete Kriengsiri for help with this homework. Here is the [li
 
 ## Screenshot
 
-[screenshot.PNG](screenshot.PNG)
+![screenshot.PNG](screenshot.PNG)
 
 ## link to website
 
